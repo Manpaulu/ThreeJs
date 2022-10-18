@@ -1,0 +1,24 @@
+body {
+    margin : 2em;
+    overflow: hidden;
+}
+
+#button {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0.46em 1.6em;
+    border:0.1em solid #000000;
+    transition: all 0.15s;
+}
+
+#button:hover{
+    text-shadow: 0 0 2em rgba(255,255,255,1);
+    color:#FFFFFF;
+    border-color:#FFFFFF;
+}
+
+.button {
+    margin-top: 5em;
+}

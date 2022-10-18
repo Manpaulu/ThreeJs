@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Example Audio</title>
+    <script type="text/javascript" src="../libs/three.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+
+    </head>
+ 
+<body>
+    <script>
+        function play() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+      
+      <div class = "button"><input id = "button" type="button" value="PLAY" onclick="play()">
+      <audio id="audio" src="./audio/waves.mp3"></audio>
+      </div>
+      
+</body>
+ 
+</html>
